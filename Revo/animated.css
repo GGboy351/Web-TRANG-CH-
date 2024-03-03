@@ -1,0 +1,52 @@
+@keyframes text-animated {
+    0%{
+        translate: 0 0 ;
+    }
+    50%{
+        translate: 1000px 0;
+    }
+    100%{
+        translate: 864px 0;
+    }
+
+}
+@keyframes text-animated-text2 {
+    0%{
+        translate: 0 0 ;
+    }
+    50%{
+        translate: 1000px 0;
+    }
+    100%{
+        translate: 864px 0;
+    }
+
+}
+@keyframes base-animated{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.base{
+    animation: base-animated 0.5s ease forwards;
+    animation-delay: 6s;
+}
+.text1 {
+    animation: text-animated 2s ease forwards;
+    animation-delay: 0s;
+}
+.text2 {
+    animation: text-animated-text2 2s ease forwards;
+    animation-delay: 4s;
+}
+.text3 {
+    animation: text-animated 2s ease forwards;
+    animation-delay: 2s;
+}
+
+
+
+

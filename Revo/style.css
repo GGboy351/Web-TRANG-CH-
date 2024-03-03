@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgba(249, 251, 255, 1);
+}
+
+
+.container {
+    width: 1440px;
+    height: 4028px;
+    margin: auto;
+}
+.header {
+    display: flex;
+    position: relative;
+    width: 1404px;
+    height: 768px;
+    left: 50px;
+}
+
+.column-left {
+    width: 386px;
+    height: 768px;
+}
+.column-midle {
+    width: 690px;
+    height: 768px;
+}
+.column-midle img {
+    position: relative;
+    z-index: -4;
+}
+.column-right{
+    color: #fff;
+    width: 274px;
+    height: 768px;
+    background-color: rgb(65,81,103);
+}
+
+.column-left img{
+    position: absolute;
+    width: 124px;
+    height: 40px;
+    left: 180px;
+    top: 72px;
+}
+
+.column-right > h1 {
+    width: 108px;
+    height: 22px;
+    position: relative;
+    top: 230px;
+    left: 56px;
+    font-size: 16px;
+    line-height: 21.82px;
+    font-family: "Nunito Sans";
+    font-weight: 700;
+}
+.column-right ul{
+    width: 140px;
+    height: 225px;
+    position: relative;
+    top: 282px;
+    left: 57px;
+}
+.column-right ul li{
+    font-family: "Nunito Sans";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    list-style: none;
+}
+.column-left .logo-text{
+    position: relative;
+    width: 486px;
+    height: 200px;
+    top: 435px;
+    left: -666px;
+}
+.column-left .logo-text h1 {
+    font-size: 54px;
+    line-height: 70px;
+}
+
+.column-left .logo-text .text1, .text3{
+    color: rgb(65,81,103);
+}
+.column-left .logo-text .text2 {
+    color: rgb(65,81,103);
+}
+.base {
+    width: 486px;
+    height: 70px;
+    background-color: rgb(199,161,122);
+    position: relative;
+    top: 573px;
+    left: 180px;
+    z-index: -1;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+.feature {
+    position: relative;
+    width: 1104px;
+    height: 382.57px;
+    left: 148px;
+    margin-top: 87px;
+    opacity: 1;
+    transition: transform 1s, opacity 1s;
+}
+.feature-hidden {
+    opacity: 0;
+    transform: translateY(8rem)
+}
+.feature-title {
+    width: 448px;
+    height: 64px;
+    margin: 0 auto;
+}
+.feature-title h2 {
+    position: relative;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Nunito Sans";
+    font-weight: 600;
+    color: rgba(65, 81, 103, 1);
+    text-align: center;
+}
+.feature-title h1 {
+    position: relative;
+    font-size: 30px;
+    line-height: 34px;
+    font-family: "Montserrat Alternates";
+    font-weight: 900;
+    color: rgba(65, 81, 103, 1);
+}
+.information {
+    width: 1104px;
+    height: 247px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+}
+.block-information{
+    width: 226px;
+    height: 247px;
+
+}
+.block-information img{
+    width: 79px;
+    height: 79px;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    top: 19px;
+    bottom: 43px;
+}
+.block-information div {
+    width: 226px;
+    height: 107px;
+    position: absolute;
+    bottom: 0;
+}
+.block-information div h1 {
+    font-size: 24px;
+    line-height: 28px;
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    text-align: center;
+    color: rgba(35, 44, 56, 1);
+}
+.block-information div p {
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    line-height: 21.82px;
+    text-align: center;
+    font-family: "Nunito Sans";
+    font-weight: 300;
+    text-align: center;
+}
+
+
+
+.Coffee{
+    display: flex;
+    height: 894px;
+    width: 1404px;
+    margin-top: 129px;
+    position: relative;
+    opacity: 1;
+    transition: transform 1s, opacity 1s;
+}
+.decoration-right {
+    width: 384px;
+    height: 894px;
+    background-color: rgb(65,81,103);
+}
+.Coffee-hidden {
+    opacity: 0;
+    transform: translateY(8rem)
+}
+.Coffee-title {
+    width: 331px;
+    height: 60px;
+    margin: 0 auto;
+    color: rgb(65,81,103);
+    text-align: center;
+    position: relative;
+    top: 984px;
+}
